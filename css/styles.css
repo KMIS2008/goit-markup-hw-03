@@ -302,7 +302,6 @@ padding-bottom: 120px;
 
 .team-team {
     display: flex;
-    margin-top: 72px;
     flex-grow: 1;
     gap: 24px;
     /* width: calc((100% - 72px)/4); */
@@ -320,14 +319,12 @@ padding-bottom: 120px;
 .text-team-li {
     
     text-align: center;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
 .text-team {
     
     text-align: center;
-    margin-bottom: 32px;
 }
 
 /* footer */
