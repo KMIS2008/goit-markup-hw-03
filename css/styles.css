@@ -304,12 +304,17 @@ padding-bottom: 120px;
     display: flex;
     margin-top: 72px;
     flex-grow: 1;
+    gap: 24px;
     /* width: calc((100% - 72px)/4); */
 }
 
 .team {
-    margin-right: 24px;
-    /* gap: 24px; */
+    border-radius: 0px 0px 4px 4px; 
+
+}
+
+.section-four {
+    padding: 32px 16px 
 }
 
 .text-team-li {
