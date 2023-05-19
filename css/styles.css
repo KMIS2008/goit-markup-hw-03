@@ -329,7 +329,10 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 
-
+.logo-item {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .logo-footer {
 font-family: "Raleway", sans-serif;
 font-style: normal;
@@ -348,10 +351,8 @@ text-decoration: none;
 }
 
 .text-footer {
-display: block;
-width: 264px;
 
-margin-top: 16px;
+width: 264px;
 
 font-weight: 400;
 font-size: 16px;
