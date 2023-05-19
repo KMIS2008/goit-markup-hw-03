@@ -124,12 +124,14 @@ padding: 24px 0;
 .header-nav {
     display: flex;
     align-items: center;
-     padding-top: 24px; 
-     padding-bottom: 24px;
+     /* padding-top: 24px;  */
+     /* padding-bottom: 24px; */
     
 }
 .address {
 margin-left: auto;
+padding-top: 24px; 
+padding-bottom: 24px;
 
 font-family: "Roboto", sans-serif;
 font-style: normal;
@@ -437,9 +439,6 @@ border-radius: 4px;
 color: var(--background-main);
 }
 
-.inline {
-    display: inline;
-}
 
 .flex-container-li {
     display: flex;
