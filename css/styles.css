@@ -164,7 +164,7 @@ color:var(--hover-color);
 
     color: var(--background-main);
 
-    width: 496px;
+    max-width: 496px;
 
     margin: 0 auto;
     
@@ -182,8 +182,10 @@ text-align: center;
 }
 
 .button {
+    display: block;
     min-width: 169px;
     padding: 16px 32px;
+    height: 56px;
 
 background: var(--link-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -198,7 +200,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 
 text-align: center;
-
+border: none;
 color: var(--background-main);
 
 }
